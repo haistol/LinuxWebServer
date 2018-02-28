@@ -1,7 +1,7 @@
 # LinuxWebServer
 The Configuration summary of Linux server for web applications
 
-## Server Infrmation
+## Server Information
 
 * OS: ubuntu 16.04.3 LTS
 * IP: 52.15.200.115
@@ -18,36 +18,36 @@ The Configuration summary of Linux server for web applications
 * mod-wsgi-py3
 
 
-## Comfiguration
+## Configuration
 
 1. Create user `grader` 
-    * add user to `sudo` group
-    * grant user right to use command `sudo` wiht password
-    * create ssh rsa key pair
+    * Add user to `sudo` group
+    * Grant user right to use command `sudo` wiht password
+    * Create ssh rsa key pair
 2. Create user `webadmin`
-3. activate `ufw` 
-    * add rule to allow 2200/tcp
-    * add rule to allow 80/tcp
-    * add rule to allow 123/tcp
-4. configurate `ssh` daemon
-    * change connection port to 2200
-    * deny `root` remote access
-    * remove password access
-5. create virtual enviroment for the applications
-6. configurate `postgresql`
+3. Activate `ufw` 
+    * Add rule to allow 2200/tcp
+    * Add rule to allow 80/tcp
+    * Add rule to allow 123/tcp
+4. Configure `ssh` daemon
+    * Change connection port to 2200
+    * Deny `root` remote access
+    * Remove password access
+5. Create virtual enviroment for the applications
+6. Configure `postgresql`
     * Remove remote access
 7. Install `Catalogapp`
-    * create webserver directory
-    * clone the github repo
-    * create the databe and user
-    * intialize the database
-    * configure the app to work with wsgi
-8. configure `apache2`
-    * add the `Catalogapp` configuration to run as wsgi app
-    * enable the apache2 headers for Access-Control-Allow-Origin
-9. set the time zone to UTC
+    * Create webserver directory
+    * Clone the github repo
+    * Create the database and user
+    * Initialize the database
+    * Configure the app to work with wsgi
+8. Configure `apache2`
+    * Add the `Catalogapp` configuration to run as wsgi app
+    * Enable the `apache2` headers for Access-Control-Allow-Origin
+9. Set the time zone to UTC
 
 ## third-party resources
 
 * Amazon Lightsail(http://lightsail.aws.amazon.com)
-* freenom (http://www.freenom.com/en/index.html?lang=en)
+* Freenom (http://www.freenom.com/en/index.html?lang=en)
