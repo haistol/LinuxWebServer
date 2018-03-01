@@ -7,7 +7,7 @@ The Configuration summary of Linux server for web applications
 * IP: 52.15.200.115
 * Ports: 2200(ssh), 80(http), 123(ntp)
 * webApp URL: http://dw48studio.tk/app/catalog
-* Ping is desable in the firewall 
+* Ping is disable in the firewall 
 
 ## Software Installed
 
